@@ -13,8 +13,8 @@ class MatsApp extends StatelessWidget {
     return MaterialApp(
       title: "Random Word Pair Generator",
       theme: ThemeData(
-        primaryColor: Colors.white,
-        dividerColor: Colors.blue,
+        primaryColor: Colors.black,
+        dividerColor: Colors.black,
       ),
       home: RandomWords(),
     );
